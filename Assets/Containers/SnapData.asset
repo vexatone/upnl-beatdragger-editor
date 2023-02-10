@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccaeaaf1755449d4e91a69ceff9a0d5d, type: 3}
+  m_Name: SnapData
+  m_EditorClassIdentifier: 
+  borderPosData:
+  - -1.6
+  - -2.4
+  - -3.2
+  - -4
+  - -4.8
+  - -5.6
+  - -6.4
+  - -7.2
+  - -8
+  notePosData:
+  - -2
+  - -2.8
+  - -3.6
+  - -4.4
+  - -5.2
+  - -6
+  - -6.8
+  - -7.6
