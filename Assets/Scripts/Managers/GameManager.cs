@@ -5,6 +5,7 @@ class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public static StateManager StateManager { get; private set; }
+    public static ChartIOManager ChartIOManager { get; private set; }
 
     private void Awake()
     {
@@ -21,5 +22,6 @@ class GameManager : MonoBehaviour
 
         // Sub-Managers
         StateManager = GetComponentInChildren<StateManager>();
+        ChartIOManager = GetComponentInChildren<ChartIOManager>();
     }
 }

@@ -1,6 +1,9 @@
 public enum NoteGroup
 {
-    Keyboard,
-    Mouse,
-    Both
+    Normal,
+    Crit,
+    Flick,
+    Hold,
+    Drag,
+    Damage,
 }

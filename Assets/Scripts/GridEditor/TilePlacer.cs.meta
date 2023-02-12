@@ -1,9 +1,16 @@
 fileFormatVersion: 2
-guid: bd64893b1a35a0f4ba537eb488593680
+guid: f613edcd840069544b4689c6eff8704a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - normalNotePrefab: {instanceID: 0}
+  - critNotePrefab: {instanceID: 0}
+  - flickNotePrefab: {instanceID: 0}
+  - holdNotePrefab: {instanceID: 0}
+  - dragNotePrefab: {instanceID: 0}
+  - damageNotePrefab: {instanceID: 0}
+  - snapDataContainer: {fileID: 11400000, guid: fb25e0890d39ce741b712026c9840a92, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
