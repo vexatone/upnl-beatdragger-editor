@@ -32,7 +32,8 @@ class ChartIOManager : MonoBehaviour
     {
         try
         {
-            
+            // TODO: Implement Parsing Logic and Store into Container
+            throw new NotImplementedException();
         }
         catch (Exception e)
         {
@@ -49,7 +50,8 @@ class ChartIOManager : MonoBehaviour
     {
         try
         {
-
+            // TODO: Implement Encoding Logic
+            throw new NotImplementedException();
         }
         catch (Exception e)
         {

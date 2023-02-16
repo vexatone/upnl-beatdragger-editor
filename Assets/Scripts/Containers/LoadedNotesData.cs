@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,12 +6,17 @@ using UnityEngine;
 class LoadedNotesData : ScriptableObject
 {
     [Serializable]
-    public class NoteData
+    public struct NoteData
     {
         public NoteGroup type;
         public float timing;
+        public int leftEnd;
+        public int rightEnd;
         public int holdGroup;
         public bool isHoldEnd;
+        public bool isTimingChecked;
+        public DragCurve dragCurveLeft;
+        public DragCurve dragCurveRight;
     }
     
     public List<NoteData> notes;

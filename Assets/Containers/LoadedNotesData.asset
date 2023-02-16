@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463a1d6857cea4943a5c261c133949cc, type: 3}
   m_Name: LoadedNotesData
   m_EditorClassIdentifier: 
+  notes: []

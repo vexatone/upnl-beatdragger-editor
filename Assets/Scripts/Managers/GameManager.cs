@@ -6,6 +6,7 @@ class GameManager : MonoBehaviour
 
     public static StateManager StateManager { get; private set; }
     public static ChartIOManager ChartIOManager { get; private set; }
+    public static ChartMetaManager ChartMetaManager { get; private set; }
 
     private void Awake()
     {
@@ -17,11 +18,12 @@ class GameManager : MonoBehaviour
 
         Instance = this;
 
-        // GameManager should be global and should't be destroyed
+        // GameManager should be global and shouldn't be destroyed
         DontDestroyOnLoad(this);
 
         // Sub-Managers
         StateManager = GetComponentInChildren<StateManager>();
         ChartIOManager = GetComponentInChildren<ChartIOManager>();
+        ChartMetaManager = GetComponentInChildren<ChartMetaManager>();
     }
 }
